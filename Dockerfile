@@ -6,7 +6,7 @@ WORKDIR /dna-nucleotide-count-app
 
 COPY . /dna-nucleotide-count-app
 
-RUN pip install -r requirements
+RUN pip install -r requirements.txt
 
 EXPOSE 8501
 
